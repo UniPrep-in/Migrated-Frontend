@@ -1,5 +1,4 @@
 # 🎓 UniPrep.in
-
 UniPrep is a modern, responsive, and highly interactive EdTech platform built specifically for students preparing for the CUET entrance exams. It focuses on delivering an immersive student experience through mock tests, performance analysis, study materials, and ranker mentorship.
 
 The project utilizes a modern frontend-heavy architecture optimized for performance, smooth transitions, and public accessibility, ensuring fast load times and strong search engine visibility.
