@@ -7,6 +7,7 @@ import Reviews from "./components/Review";
 import Faq from "./components/faq";
 import Pricing from "./components/pricing";
 import Coupon from "./components/ui/coupons";
+import GuidanceModal from "./components/ui/GuidanceModal";
 
 export default function Home() {
   const logos = ["/logos/du.png", "/logos/srcc.png", "/logos/jnu.png", "/logos/st.png"];
@@ -33,9 +34,12 @@ export default function Home() {
       <Reviews />
 
       <Faq />
+      <GuidanceModal />
+      {/*
       <div className="fixed bottom-0 left-1/2 z-50 w-full -translate-x-1/2 bg-black shadow-xl">
         <Coupon />
       </div>
+       */}
     </main>
   );
 }
