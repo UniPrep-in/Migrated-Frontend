@@ -2,6 +2,7 @@
 
 import Footer from "@/app/components/Footer";
 import Navbar from "@/app/components/ui/Navbar";
+import CookieConsent from "@/app/components/ui/CookieConsent";
 import { usePathname } from "next/navigation";
 
 type AppShellProps = {
@@ -68,6 +69,7 @@ export default function AppShell({ children }: AppShellProps) {
       ) : null}
       <div className="flex-1">{children}</div>
       {showFooter ? <Footer /> : null}
+      <CookieConsent />
     </div>
   );
 }
